@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="../assets/vendor/fonts/iconify-icons.css">
     <link rel="stylesheet" href="../assets/vendor/css/core.css">
     <link rel="stylesheet" href="../assets/css/demo.css">    
+    <link rel="stylesheet" href="../assets/css/font_lao.css">   
       <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
     
-    @vite('resources/css/app.cs')
+    @vite('resources/css/app.css')
 
 </head>
 <body>
-    <h1>Laravel App</h1>
-
-    <hr>
+    
 
     <div id="vue-app"></div>
 
