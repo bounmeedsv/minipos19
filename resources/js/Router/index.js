@@ -5,6 +5,8 @@ import Pos from "../Pages/Pos.vue";
 import Transection from "../Pages/Transection.vue";
 import Report from "../Pages/Report.vue";
 import NoPage from "../Pages/NoPage.vue";
+import Login from "../Pages/Login.vue";
+import Register from "../Pages/Register.vue";
 
 
 export const routes = [
@@ -37,6 +39,16 @@ export const routes = [
         name: "nopage",
         path: "/:pathMacth(.*)*",
         component: NoPage
+    },
+    {
+        name: "login",
+        path: "/login",
+        component: Login
+    },
+    {
+        name: "register",
+        path: "/register",
+        component: Register
     },
 ];
 
